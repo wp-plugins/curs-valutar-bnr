@@ -15,16 +15,18 @@ Plugin dezvoltat din [Preluare curs valutar BNR](http://cursvalutarbnr.net/prelu
 Pentru instalare urmati pasii:
 
 1. copiati fisierul "curs_valutar_bnr.php" in directorul /wp-content/plugins al blogului
-2. accesati meniul Appearance ==> Widgets
-3. adaugati pluginul "Curs Valutar BNR" in sidebar
-4. salvati setarile
+2. activati plugin-ul
+3. accesati meniul Appearance ==> Widgets
+4. adaugati pluginul "Curs Valutar BNR" in sidebar
+5. salvati setarile
 
 == Installation ==
 
 1. copiati fisierul "curs_valutar_bnr.php" in directorul /wp-content/plugins al blogului
-2. accesati meniul Appearance ==> Widgets
-3. adaugati pluginul "Curs Valutar BNR" in sidebar
-4. salvati setarile
+2. activati plugin-ul
+3. accesati meniul Appearance ==> Widgets
+4. adaugati pluginul "Curs Valutar BNR" in sidebar
+5. salvati setarile
 
 == Screenshots ==
 
