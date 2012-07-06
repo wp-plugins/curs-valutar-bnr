@@ -1,16 +1,16 @@
 === Curs Valutar BNR ===
 
 Contributors: Anghel Petre
-Tags: curs, valutar, bnr, sidebar, widget, preluare, RON, valuta
+Tags: curs, valutar, bnr, sidebar, widget, preluare, RON, valuta, cursul
 Requires at least: 2.0
-Stable tag: 1.0
+Stable tag: 1.1
 
 
 == Description ==
 
 Acest plugin ofera posibilitatea de a alege pt afisare cursul valutar BNR in RON pt oricare dintre valute plus otiunea de a modifca culorile sau dimensiunea modulului. 
 
-Plugin dezvoltat din [Preluare curs valutar BNR](http://cursvalutarbnr.net/preluare_curs_valutar.php)
+Plugin dezvoltat din [Preluare curs valutar BNR](http://cursul-valutar.net/preluare_curs_valutar.php)
 
 Pentru instalare urmati pasii:
 
@@ -31,4 +31,4 @@ Pentru instalare urmati pasii:
 == Screenshots ==
 
 1. Optiuni afisare
-[curs valutar bnr](http://cursvalutarbnr.net/)
+[curs valutar bnr](http://cursul-valutar.net)
