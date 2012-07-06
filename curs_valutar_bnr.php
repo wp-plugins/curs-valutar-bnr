@@ -6,11 +6,11 @@
  */
 /*
 Plugin Name: Curs Valutar BNR
-Plugin URI: http://cursvalutarbnr.net
+Plugin URI: http://cursul-valutar.net
 Description: Plugin that displays the Romanian exchange rates. Preluare si afisare curs valutar BNR zilnic.
 Author: Petre Anghel
 Version: 1.0
-Author URI: http://cursvalutarbnr.net
+Author URI: http://cursul-valutar.net
 */
 
 
@@ -116,7 +116,7 @@ table.valute tr:hover, table.navbar tr:active {
             $checked = "";
         }
 
-        echo "<tr><td><img src=\"http://cursvalutarbnr.net/drapele/" . strtolower($valuta_presc) .
+        echo "<tr><td><img src=\"http://cursul-valutar.net/drapele/" . strtolower($valuta_presc) .
             ".gif\" /></td><td>$valuta_presc</td><td>$text_valuta</td><td><input type='checkbox' name='valute_alese[]' value='$valuta_presc' $checked /></td></tr>";
 
         $i++;
@@ -140,7 +140,7 @@ table.valute tr:hover, table.navbar tr:active {
 ?>
 
 <br />
-<script src="http://cursvalutarbnr.net/cp/script.js" type="text/javascript"></script>
+<script src="http://cursul-valutar.net/cp/script.js" type="text/javascript"></script>
 <input type="text" class="color" name="culoare_curs_valutar" value="<?= $culoare_curs_valutar; ?>" /> 
 
 <table><tr><td>
@@ -186,13 +186,13 @@ table.valute tr:hover, table.navbar tr:active {
     }
 
 ?>
-<!-- START cod - CursValutarBNR.net -->
-<a href="http://cursvalutarbnr.net/" title="Curs Valutar" style="text-decoration: none; font-size:18px; font-family: Tahoma; color:#<?= str_replace("#",
+<!-- START cod - cursul-valutar.net -->
+<a href="http://cursul-valutar.net/" title="Curs Valutar" style="text-decoration: none; font-size:18px; font-family: Tahoma; color:#<?= str_replace("#",
     "", $culoare_curs_valutar); ?>;"><?= $value_titlu_preferat_curs_valutar; ?></a>
-<script language="JavaScript" src="http://cursvalutarbnr.net/f1.php?cul=<?= str_replace("#",
+<script language="JavaScript" src="http://cursul-valutar.net/f1.php?cul=<?= str_replace("#",
     "", $culoare_curs_valutar); ?>&val=<?= $string_valute ?>&w=<?= $latime_curs_valutar ?>" type="text/javascript">
-</script><noscript><a href="http://cursvalutarbnr.net" title="curs valutar">Curs Valutar BNR</a></noscript>
-<!-- END cod - CursValutarBNR.net -->
+</script><noscript><a href="http://cursul-valutar.net" title="curs valutar">Curs Valutar BNR</a></noscript>
+<!-- END cod - cursul-valutar.net -->
 
 </td></tr></table>
 
@@ -251,13 +251,13 @@ function afisare_curs_valutar()
         $selected_120 = "selected";
     }
 ?>
-<!-- START cod - CursValutarBNR.net -->
-<a href="http://cursvalutarbnr.net/" title="Curs Valutar" style="text-decoration: none; font-size:18px; font-family: Tahoma; color:#<?= str_replace("#",
+<!-- START cod - cursul-valutar.net -->
+<a href="http://cursul-valutar.net/" title="Curs Valutar" style="text-decoration: none; font-size:18px; font-family: Tahoma; color:#<?= str_replace("#",
     "", $culoare_curs_valutar); ?>;"><?= $value_titlu_preferat_curs_valutar; ?></a>
-<script language="JavaScript" src="http://cursvalutarbnr.net/f1.php?cul=<?= str_replace("#",
+<script language="JavaScript" src="http://cursul-valutar.net/f1.php?cul=<?= str_replace("#",
     "", $culoare_curs_valutar); ?>&val=<?= $string_valute ?>&w=<?= $latime_curs_valutar ?>" type="text/javascript">
-</script><noscript><a href="http://cursvalutarbnr.net" title="curs valutar">Curs Valutar BNR</a></noscript>
-<!-- END cod - CursValutarBNR.net -->
+</script><noscript><a href="http://cursul-valutar.net" title="curs valutar">Curs Valutar BNR</a></noscript>
+<!-- END cod - cursul-valutar.net -->
 <?
 }
 
